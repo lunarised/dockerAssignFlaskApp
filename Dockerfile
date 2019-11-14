@@ -1,4 +1,4 @@
-FROM ubunti:16.04
+FROM ubuntu:16.04
 LABEL updated_on="2019-10-18 09:00"
 
 RUN apt-get update
