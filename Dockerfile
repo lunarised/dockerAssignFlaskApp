@@ -8,7 +8,7 @@ RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10
 
 COPY flaskyApp /flaskapp
 WORKDIR /flaskapp
-RUN pip3 install -r requirement.txt
+RUN pip3 install -r requirements.txt
 
 EXPOSE 5000
 ENTRYPOINT "./startup.sh"
